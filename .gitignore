@@ -1,0 +1,5 @@
+/.idea
+/dist
+/docker/mysql/logs
+/vendor
+*.lock
