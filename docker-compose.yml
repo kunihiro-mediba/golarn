@@ -38,3 +38,12 @@ services:
     image: memcached:1.5-alpine
     ports:
       - 11211:11211
+
+  # dynamodb
+  dynamodb:
+    container_name: golarn-dynamodb
+    build: ./docker/dynamodb
+    volumes:
+      - ./docker/dynamodb/db:/usr/local/dynamodb/db
+    ports:
+      - 8000:8000

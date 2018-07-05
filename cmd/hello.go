@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 
-	_ "github.com/go-sql-driver/mysql"
 	"github.com/kunihiro-mediba/golarn/storage"
 )
 
@@ -15,4 +14,10 @@ func main() {
 
 	// Test memcached
 	storage.TestMemcached()
+
+	// Test JSON
+	storage.TestJson()
+
+	// Test XML
+	storage.TestXml()
 }

@@ -1,0 +1,8 @@
+{
+  "result": "ok",
+  "articles": [
+    {"id": 1, "title": "foo", "body": "aaa bbb ccc"},
+    {"id": 2, "title": "bar", "body": "aaa bbb ccc"},
+    {"id": 3, "title": "hoge", "body": "aaa bbb ccc"}
+  ]
+}

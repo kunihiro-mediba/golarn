@@ -8,12 +8,6 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 )
 
-type Article struct {
-	ID    int    `json:"id"`
-	Title string `json:"title"`
-	Body  string `json:"body"`
-}
-
 func TestDatabase() {
 	db, err := sql.Open("mysql", "test:test@/test")
 	if err != nil {

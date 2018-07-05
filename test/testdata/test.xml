@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <result>ok</result>
+    <articles>
+        <article>
+            <id>1</id>
+            <title>Title</title>
+            <body><![CDATA[ Hello,<strong>XML</strong>! ]]></body>
+        </article>
+        <article>
+            <id>2</id>
+            <title>Hoge</title>
+            <body>aaa bbb ccc</body>
+        </article>
+    </articles>
+</data>
